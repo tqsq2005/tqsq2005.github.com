@@ -1,0 +1,37 @@
+# Site navigation links
+
+- title: Home
+  url: /
+  excerpt:
+  image:
+
+- title: PHP
+  url: /php/
+
+- title: Yii2
+  url: /yii2/
+
+- title: JS
+  url: /javascript/
+
+- title: Css
+  url: /cssHtml/
+
+- title: SQL
+  url: /mysql/
+
+- title: Linux
+  url: /linux/
+
+- title: Python
+  url: /python/
+
+- title: Jekyll
+  url: /jekyll/
+
+- title: 杂谈
+  url: /life/
+
+- title: Me
+  url: /about/
+
