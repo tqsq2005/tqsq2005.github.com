@@ -4,8 +4,8 @@ permalink: /
 title: "最近发表的文章"
 image: 
     feature: cover.jpg
-    credit: Hubber's high resolution photo
-    creditlink: http://www.universetoday.com/wp-content/uploads/2010/02/The-Majestic-Sombrero-Galaxy-M104.jpg
+    credit: One Piece
+    creditlink: http://www.xiaoxiongbizhi.com/wallpaper/82093
 ---
 
 <div class="tiles">
