@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 
 <div id="main" role="main">			
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
@@ -21,15 +23,7 @@
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
 				<hr />
-				<footer class="page-footer">
-					{% if page.categories %}{% include page-author.html %}{% endif %}
-					{% if page.share != false %}{% include share-this.html %}{% endif %}
-					{% include page-meta.html %}
-				</footer><!-- /.footer -->
-                {% include add-this.html %}
-				<aside>
-					{% include comments.html %}
-				</aside>
+				
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
         <!--
@@ -38,17 +32,5 @@
 		<div class="ads">{% include about-me.html %}</div>-->
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
-{% include env.html %}
-{% if env == null or env != 'staging' %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-58172430-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-{% endif %}
 
