@@ -1,8 +1,8 @@
 ---
 layout: archive
 permalink: /python/
-title: "Latest Posts in *python*"
-excerpt: "What I've learnt, especially through Project Euler & Codeforce"
+title: "Python 文章汇总"
+excerpt: ""
 ---
 
 <div class="tiles">

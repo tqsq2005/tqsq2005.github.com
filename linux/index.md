@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Latest Posts in *linux*"
-excerpt: "Intresting things in the linux world"
+title: "Linux 文章汇总"
+excerpt: ""
 
 ---
 
