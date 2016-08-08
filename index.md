@@ -9,7 +9,7 @@ image:
 ---
 
 <div class="tiles">
-{% for post in site.posts limit: 16 %}
+{% for post in site.posts limit: 12 %}
 	{% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
