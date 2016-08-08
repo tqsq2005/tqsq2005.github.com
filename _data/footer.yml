@@ -1,4 +1,10 @@
 # Footer navigation links
 
-- title:
-  url:
+- title: 日志标签 · Tags
+  url: /tags.html
+
+- title: 日志分类 · Categories
+  url: /categories.html
+
+- title: 日志归档 · Archive
+  url: /archive.html

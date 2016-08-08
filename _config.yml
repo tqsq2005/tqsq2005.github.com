@@ -15,6 +15,9 @@ default:
             ads: false
             toc: false 
 
+#paginate
+
+paginate: 8
 
 # Jekyll configuration
 

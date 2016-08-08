@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="main" role="main">			
+<div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		{% if page.image.feature %}
 		<div class="page-feature">
@@ -13,51 +13,30 @@ layout: default
 		</div><!-- /.page-feature -->
 		{% endif %}
 		{% include breadcrumbs.html %}
-
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
 		</div>
 		<div class="inner-wrap">
-            {% if page.toc %}
+			{% if page.toc %}
 			<nav class="toc"></nav><!-- /.toc -->
-            {% endif %}
+			{% endif %}
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
 				<hr />
 				<footer class="page-footer">
-                    {% include pagination.html %}
-                    <section class="page-footer-tag">
-                        {% unless page.tags == empty %}
-                        <h1><b><i class="fa fa-tags"></i> Tag | 标签：</b></h1>
-                        <ul>
-                            {% assign tags_list = page.tags %}
-                            {% include JB/tags_list %}
-                        </ul>
-                        {% endunless %}
-
-                        {% unless page.categories == empty %}
-                        <h1><b><i class="fa fa-book"></i> Cat | 分类：</b></h1>
-                        <ul>
-                            {% assign categories_list = page.categories %}
-                            {% include JB/categories_list %}
-                        </ul>
-                        {% endunless %}
-                    </section>
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
 					{% include page-meta.html %}
 				</footer><!-- /.footer -->
-                {% include add-this.html %}
+				{% include add-this.html %}
 				<aside>
 					{% include comments.html %}
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
-        <!--
+		<!--
             {% if page.ads %}<div class="ads">{% include advertising.html %}</div>{% endif %}
 
-		<div class="ads">{% include about-me.html %}</div>-->
+        <div class="ads">{% include about-me.html %}</div>-->
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
-
-

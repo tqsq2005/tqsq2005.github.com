@@ -1,3 +1,77 @@
+/* tag_box & category_box */
+.tag_box, .category_box {
+	list-style: none;
+	margin: 0;
+	padding: 2px 0;
+	overflow: hidden;
+}
+.tag_box .badge, .category_box .badge {
+	background:rgba(0, 0, 0, 0);
+	color:#268BD2;
+}
+.tag_box li, .category_box li {
+	line-height: 20px;
+	margin: 0;
+}
+.tag_box.inline li, .category_box.inline li {
+	float: left;
+	padding: 2px 0;
+}
+.tag_box a, .category_box a {
+	padding: 2px;
+	margin: 2px;
+	background: #eee;
+	color: #268BD2;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 1.25em;
+}
+.tag_box a span, .category_box a span {
+	vertical-align: super;
+	font-size: 0.8em;
+}
+.tag_box a.active, .category_box a.active {
+	background: #57A957;
+	border: 1px solid #4C964D;
+	color: #FFF;
+}
+/* tag_box & category_box end */
+//footer section.page-footer-tag
+// --------------------------------------------------
+section.page-footer-tag {
+	font-size: 1.25rem;
+	font-style: italic;
+	text-align: right;
+}
+section.page-footer-tag a {
+	color: #268BD2;
+}
+section.page-footer-tag .badge {
+	background:#5cb85c;
+}
+section.page-footer-tag h1 {
+	font-weight: normal;
+	display: inline;
+	font-size: inherit;
+	padding-right: 5px;
+}
+section.page-footer-tag ul {
+	display: inline;
+	list-style: none;
+	padding: 0;
+}
+section.page-footer-tag li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.pagination .left{
+	float: left;
+}
+
+.pagination .right{
+	float: right;
+}
 // MASTHEAD
 // --------------------------------------------------
 
