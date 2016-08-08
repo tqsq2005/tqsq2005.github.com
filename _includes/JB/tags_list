@@ -19,13 +19,13 @@ Usage:
 
 {% if tags_list.first[0] == null %}
 	{% for tag in tags_list %} 
-		<li><a href="/tags.html#{{ tag }}-ref">
+		<li><a href="/tags#{{ tag }}-ref">
 			{{ tag }} <span class="badge">{{ site.tags[tag].size }}</span>
 		</a></li>
 	{% endfor %}
 	{% else %}
 	{% for tag in tags_list %} 
-		<li><a href="/tags.html#{{ tag[0] }}-ref">
+		<li><a href="/tags#{{ tag[0] }}-ref">
 			{{ tag[0] }} <span class="badge">{{ tag[1].size }}</span>
 		</a></li>
 	{% endfor %}
