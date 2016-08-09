@@ -48,6 +48,10 @@ ins {
 // Links
 a {
 	color: $link-color;
+	-webkit-transition:all 0.25s;
+	//text-decoration:none;
+	transition:all 0.25s;
+	background-color:transparent;
 	&:hover {
 		color: darken($link-color, 20);
 	}

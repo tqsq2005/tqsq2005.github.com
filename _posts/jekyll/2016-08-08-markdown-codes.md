@@ -163,3 +163,52 @@ Tag | 标签：
 <i class="fa fa-tags"/>
 Tag | 标签：
 </b>
+
+## 8、表格
+{% highlight text %}
+字符|UTF-8编码后的十六进制
+|-|-|
+很|E5BE88
+屌|E5B18C
+
+字符|UTF-8编码后的十六进制
+很|E5BE88
+屌|E5B18C
+{% endhighlight %}
+字符|UTF-8编码后的十六进制
+|-|-|
+很|E5BE88
+屌|E5B18C
+
+字符|UTF-8编码后的十六进制
+很|E5BE88
+屌|E5B18C
+
+## 9、有序列表
+{% highlight text %}
+1. 若要安装一套主题，请先将该主题添加到您站点的 `Gemfile` 中：
+
+        gem 'my-awesome-jekyll-theme'
+
+2. 保存并应用 `Gemfile` 中相关的文件变化。
+3. 执行命令行 `bundle install` 来安装主题。
+4. 最后, 向您站点的 `_config.yml` 中加入下列代码来启用主题
+{% endhighlight %}
+
+1. 若要安装一套主题，请先将该主题添加到您站点的 `Gemfile` 中：
+
+        gem 'my-awesome-jekyll-theme'
+
+2. 保存并应用 `Gemfile` 中相关的文件变化。
+3. 执行命令行 `bundle install` 来安装主题。
+4. 最后, 向您站点的 `_config.yml` 中加入下列代码来启用主题
+
+## 10、无序列表
+{% highlight text %}
+* `/_layouts`
+* `/_includes`
+* `/_sass`
+{% endhighlight %}
+* `/_layouts`
+* `/_includes`
+* `/_sass`
