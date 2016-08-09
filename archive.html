@@ -3,12 +3,9 @@ layout: article
 title : 日志归档 · Archive
 header : Post Archive
 group: navigation
+permalink: /archive/
+disabledTag: true
 ---
 
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}
-<script type="text/javascript">
-    $(function() {
-        $('section.page-footer-tag').hide();
-    });
-</script>

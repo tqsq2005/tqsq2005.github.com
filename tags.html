@@ -4,6 +4,7 @@ title: 日志标签 · Tags
 header: Posts By Tag
 group: navigation
 permalink: /tags/
+disabledTag: true
 ---
 {% include JB/setup %}
 
@@ -20,8 +21,3 @@ permalink: /tags/
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
-<script type="text/javascript">
-  $(function() {
-    $('section.page-footer-tag').hide();
-  });
-</script>

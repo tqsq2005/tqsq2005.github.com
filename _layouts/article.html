@@ -59,5 +59,12 @@ layout: default
 		<div class="ads">{% include about-me.html %}</div>-->
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
+{% if page.disabledTag %}
+<script type="text/javascript">
+	$(function() {
+		$('section.page-footer-tag').hide();
+	});
+</script>
+{% endif %}
 
 

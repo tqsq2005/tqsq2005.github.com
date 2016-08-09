@@ -2,6 +2,7 @@
 layout: article
 title: About blog about me
 permalink: /about/
+disabledTag: true
 ---
 
 ## About blog
